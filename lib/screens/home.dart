@@ -15,7 +15,7 @@ class _HomeState extends State<Home> {
       mainAxisAlignment: MainAxisAlignment.end,
       children: [
         Padding(
-          padding: const EdgeInsets.all(32.0),
+          padding: const EdgeInsets.all(28.0),
           child: FlutterLogo(
             size: 30,
           ),
@@ -27,8 +27,7 @@ class _HomeState extends State<Home> {
   Widget _introText() {
     return Container(
       margin: EdgeInsets.fromLTRB(16, 16, 10, 0),
-      child: Text(
-          'All study material for the interpretation exam in one place.',
+      child: Text('All study material for the translation exam in one place.',
           style: Theme.of(context).textTheme.bodyText2),
     );
   }
@@ -87,7 +86,7 @@ class _HomeState extends State<Home> {
 
   Widget _cards() {
     return Container(
-      margin: EdgeInsets.all(8),
+      margin: EdgeInsets.symmetric(horizontal: 8),
       child: GridView.count(
         childAspectRatio: 1.5,
         crossAxisCount: 2,
