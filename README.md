@@ -1,16 +1,14 @@
-# flutter_card_based_ui
+# Flutter Card Based UI for a Translation Exam App
 
-A new Flutter project.
+![Cover Pic](https://cdn.dribbble.com/users/6553977/screenshots/15991554/media/7216fba4d6c4d203a268fd8393cd98e9.gif)
 
-## Getting Started
+App Features
+* Swipe left/Swipe right home navigation
+* Percentage linear loader bars
+* Settings page
+* Information page
+* Consistant icons 
+* Dynamic home page greeting
 
-This project is a starting point for a Flutter application.
+[View on Dribbble](https://dribbble.com/shots/15991554-Card-Based-UI)
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
